@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Screener</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>AI Resume Screener</h1>
+
+        <label for="jobFile">Upload Job Description (CSV):</label>
+        <input type="file" id="jobFile" accept=".csv">
+
+        <label for="resumeFiles">Upload Resumes (PDF):</label>
+        <input type="file" id="resumeFiles" multiple accept=".pdf,.doc,.docx">
+
+        <button onclick="uploadFiles()">Submit</button>
+
+        <div id="results">
+            <div class="main">
+                <div class="spinner" id="loader">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
