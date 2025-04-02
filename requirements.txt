@@ -1,0 +1,14 @@
+pandas
+numpy
+scikit-learn
+PyPDF2
+python-docx
+flask
+flask-cors
+pyngrok
+os
+re
+sqlite3
+smtplib
+sentence-transformers
+email
